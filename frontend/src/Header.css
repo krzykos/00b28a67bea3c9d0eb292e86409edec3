@@ -1,0 +1,8 @@
+.Header {
+  border-bottom: 3px solid #ddd;
+}
+
+.Header .logo {
+  width: 8rem;
+  margin: 0.5rem;
+}

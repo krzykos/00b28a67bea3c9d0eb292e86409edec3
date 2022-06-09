@@ -1,0 +1,34 @@
+The strategy for solving the assignment was to stick to the acceptance criteria, not adding any additional features or unnecessary implementation pieces but still keep the code clean.
+The reason for this was to save time. It took full 3 hours.
+
+I'd rather put the modules into separate repositories.
+
+Possible improvements for backend:
+- prepare README.md
+- use TypeScript
+- do the appropriate fixes, so the JSON does not contain duplicate entries
+- if the whole backend module is large, NestJS should be used istead of pure Express API
+- add unit tests
+- add linter
+- add Dockerfile
+- prepare deployment environment
+- prepare CI/CD pipelines
+
+Possible improvements for frontend:
+- prepare README.md
+- introduce more intermediate directories to src/ as the app grows
+- consider creating the app model (at least extract fetch().then().then() and StateResponse into a separate file)
+- once backend is fixed, the postprocessing of the endpoint response is not needed
+- use SCSS for styling
+- use stylesheet postprocessing tool to avoid conflicts of classnames between different files
+- it's possible to use gradient with CSS for the border below the logo
+- the design is horribly dev-unfriendly (I guess it's on purpose here ;)
+- the map SVG was not scalable, viewBox had to be added
+- the responsiveness works a bit different than the design, it's not bad though
+- perhaps the layout of the components at the main screen should be better organized using flex box
+- the interaction map SVG is implemented in classical way with the image as black box. The React approach would be to make a TSX component with the SVG. Hovewer this would make pulling the new SVG versions painful.
+- unit tests would make sense if the SVG was a TSX. With the current approach testing the browser DOM updates could be challenging.
+- add linter
+- add Dockerfile
+- prepare deployment environment
+- prepare CI/CD pipelines

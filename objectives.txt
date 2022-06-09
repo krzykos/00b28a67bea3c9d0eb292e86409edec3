@@ -1,0 +1,19 @@
+The assignment includes the following:
+
+    Create a GitHub repository
+    Create a basic React App using create-react app or your own custom webpack
+    Create a basic Express.js REST api with a single GET endpoint that outputs the attached state JSON feed as a response
+    Consume this API endpoint within the React front end you build
+    Create a map component using the attached map SVG
+    Create a selection box that contains the following input items
+        0-250
+        250-500
+        500-1000
+        1000+
+
+    When the user selects the different values, the component should update and highlight the states that fall into that range of visits using the fill color #F59200. So, for example, if you select 0-250 then you should only highlight states that have between 0-250 visits. 
+
+Below is a wireframe of what the map component and page should look like. 
+https://xd.adobe.com/view/163827cd-a17f-4268-a385-f7ba53c0626f-436b/?fullscreen
+
+As a helpful hint, you may notice that the SVG file I attached has different paths for the different states and that the two character state code is in the class name of the path.
